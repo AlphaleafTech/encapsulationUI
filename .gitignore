@@ -1,0 +1,14 @@
+# Folders to ignore
+target/
+out/
+.idea/
+.ideas/
+report/
+reports/
+
+# Files to ignore
+*.iml
+*.class
+*.classpath
+*.html
+.DS_Store
