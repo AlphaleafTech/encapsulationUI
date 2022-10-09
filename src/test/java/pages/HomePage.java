@@ -1,7 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
-import utils.Automations;
+
 
 import static utils.Automations.*;
 
