@@ -7,7 +7,7 @@ public class EvaluatePage {
     // --- Fields
     private By loc_usecase_dropdown = By.xpath("//select[@id='useCases']");
     private By loc_pc_option        = By.xpath("//option[contains(text(),'Classification')]");
-    private By loc_dataset_dropdown = By.xpath("//div[contains(text(), 'Validation')]");
+    private By loc_dataset_dropdown = By.xpath("//select[@id='useCaseSelect']");
     private By loc_pc_dataset       = By.xpath("//option[contains(@value, 'My Site')]");
     private By loc_p_model          = By.xpath("//div/span[contains(text(),'Company 1')]");
     private By loc_evaluate_button  = By.xpath("//button[text()='Evaluate Models']");
