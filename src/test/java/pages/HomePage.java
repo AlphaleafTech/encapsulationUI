@@ -5,11 +5,11 @@ import org.openqa.selenium.By;
 public class HomePage {
     //---- Field
     private String url;
-    private By loc_enter_button = By.xpath("");
-    private By loc_page_banner = By.xpath("");
-    private By loc_create_tab = By.xpath("");
-    private By loc_evaluate_tab = By.xpath("");
-    private By loc_run_tab = By.xpath("");
+    private By loc_enter_button = By.xpath("//a/button[contains(text(), 'ENTER')]");
+    private By loc_page_banner = By.xpath("//h1[contains(text(), 'Welcome')]");
+    private By loc_create_tab = By.xpath("//li/a/span[text()='Create']");
+    private By loc_evaluate_tab = By.xpath("//li/a/span[text()='Evaluate']");
+    private By loc_run_tab = By.xpath("//li/a/span[text()='Run']");
 
     //---- Constructor
     public HomePage(){ }
