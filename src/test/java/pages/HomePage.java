@@ -1,6 +1,9 @@
 package pages;
 
 import org.openqa.selenium.By;
+import utils.Automations;
+
+import static utils.Automations.*;
 
 public class HomePage {
     //---- Field
@@ -21,24 +24,28 @@ public class HomePage {
 
     //---- Methods
     public void open() {
-        // go to url
-        // click the enter button
-        // verify page banner visibility
+        visit(url);
+        click(loc_enter_button);
+        highlight(loc_page_banner);
+        isVisible(loc_page_banner);
     }
 
     public void visitCreate() {
-        // highlight Create tab
-        // click the Create tab
+        highlight(loc_create_tab);
+        click(loc_create_tab);
+        sleep(3);
     }
 
     public void visitEvaluate() {
-        // highlight Evaluate tab
-        // click the Evaluate tab
+       highlight(loc_evaluate_tab);
+       click(loc_evaluate_tab);
+       sleep(3);
     }
 
     public void visitRun() {
-        // highlight Run tab
-        // click the Run tab
+       highlight(loc_run_tab);
+       click(loc_run_tab);
+       sleep(3);
     }
 
     // Getter for URL
